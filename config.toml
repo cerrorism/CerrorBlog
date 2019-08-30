@@ -1,4 +1,4 @@
 baseURL = "https://blog.cerrorism.com/"
-languageCode = "zh-cn"
+languageCode = "en-us"
 title = "Programming Life"
 theme = "hugo-flex"
