@@ -1,5 +1,5 @@
 ---
-title: "2019 09 17 Config Gradle for Kotlin Backend Service (1)"
+title: "Kotlin Backend Service - Config Gradle for Kotlin Backend Service (1)"
 date: 2019-09-17T07:39:17-07:00
 ---
 
