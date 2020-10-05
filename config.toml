@@ -3,8 +3,8 @@ theme = "even"
 title = "心之所向"
 
 
-languageCode = "zh-CN"
-defaultContentLanguage = "zh-CN"                             # en / zh-cn / ... (This field determines which i18n file to use)
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -91,7 +91,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   customCSS = []
-  customJS = []
+  customJS = ['mermaid.min.js']
 
   uglyURLs = false          # please keep same with uglyurls setting
 
@@ -150,17 +150,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   [params.sequenceDiagrams] # see https://blog.olowolo.com/example-site/post/js-sequence-diagrams/
     enable = false
     options = ""            # default: "{theme: 'simple'}"
-
-  [params.busuanzi]         # count web traffic by busuanzi                             # 是否使用不蒜子统计站点访问量
-    enable = false
-    siteUV = true
-    sitePV = true
-    pagePV = true
-
-  [params.reward]                                         # 文章打赏
-    enable = false
-    wechat = "/path/to/your/wechat-qr-code.png"           # 微信二维码
-    alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
     a-email = "cerrorism@gmail.com"
